@@ -1,13 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
-
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+i7_2820:
+  title: Intel Core i7-2820QM Processor 2.3 GHz 8M Cache SR012
+  description: With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an
+  image_url: 2820.JPG
+  price: 153.00
