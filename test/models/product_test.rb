@@ -12,7 +12,7 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   test "product price must be positive" do
-    product = Product.new(title:       "CPU",
+    product = Product.new(title:       "CPU title min 10",
                           description: "yyy",
                           image_url:   "zzz.jpg")
     product.price = -1
@@ -60,13 +60,21 @@ class ProductTest < ActiveSupport::TestCase
     assert_equal ["has already been taken"], product.errors[:title]
   end
 
-  test "product is not valid without a unique title - i18n" do
-    product = Product.new(title:       products(:i7_2820).title,
+  test "product is not valid with a title less then 10 symbols" do
+    product = Product.new(title:       '123456789',
                           description: "yyy", 
                           price:       1, 
                           image_url:   "fred.gif")
 
     assert product.invalid?
-    assert_equal ['has already been taken'], product.errors[:title]
+    assert_equal ['must be longer than 9 chars'], product.errors[:title]
+    
+    product = Product.new(title:       '1234567890',
+                          description: "yyy", 
+                          price:       1, 
+                          image_url:   "fred.gif")
+
+    assert product.valid?
+ 
   end
 end

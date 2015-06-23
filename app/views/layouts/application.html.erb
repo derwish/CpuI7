@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cpui7</title>
+  <title>Cpui7 - Used CPU online store</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,7 +10,23 @@
 
 <body class='<%= controller.controller_name %>'>
 
-<%= yield %>
+  <div id="banner">
+    <%= @page_title || "Cpui7.com - Used CPU for your upgrade" %>
+  </div>
+  <div id="columns">
+    <div id="side">
+      <%= image_tag("i7logo.png") %>
+      <ul>
+        <li><a href="http://localhost:3000/">Home</a></li>
+        <li><a href="http://localhost:3000/">Questions</a></li>
+        <li><a href="http://localhost:3000/">News</a></li>
+        <li><a href="http://localhost:3000/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
+  </div>
 
 </body>
 </html>

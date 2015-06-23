@@ -5,3 +5,13 @@ i7_2820:
   description: With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an
   image_url: 2820.JPG
   price: 153.00
+i7_2820_1:
+  title: i7-2820QM Processor 2.3 GHz 8M Cache SR012
+  description: With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an
+  image_url: 2820.JPG
+  price: 153.00
+i7_2820_2:
+  title: Intel i7-2820QM Processor 2.3 GHz 8M Cache SR012
+  description: With faster, intelligent, multi-core technology that applies processing power where it's needed most, Intel Core i7 processors deliver an
+  image_url: 2820.JPG
+  price: 153.00
