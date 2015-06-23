@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cpui7 - Used CPU online store</title>
+  <title>Cpui7 - Used CPU online store. Visited <%= pluralize(session[:counter], "time")%>  </title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
 <body class='<%= controller.controller_name %>'>
 
   <div id="banner">
-    <%= @page_title || "Cpui7.com - Used CPU for your upgrade" %>
+    <%= @page_title || "Cpui7.com - Used CPU for your upgrade. #{@visited_msg}"%>  
+      
   </div>
   <div id="columns">
     <div id="side">
