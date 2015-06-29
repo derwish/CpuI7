@@ -3,7 +3,9 @@
 one:
   product_id: 1
   cart_id: 1
+  price: 0.01
 
 two:
   product_id: 1
   cart_id: 1
+  price: 0.01

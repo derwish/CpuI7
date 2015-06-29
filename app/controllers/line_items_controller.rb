@@ -57,17 +57,26 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1
   # DELETE /line_items/1.json
   def destroy
+    @pr_title = @line_item.product ? @line_item.product.title : "NO NAME"
+
     @line_item.destroy
+
     respond_to do |format|
-      format.html { redirect_to line_items_url, notice: 'Line item was successfully destroyed.' }
-      format.json { head :no_content }
+      format.html { redirect_to store_path, notice: "removed product #{@pr_title} from the cart"}
+      format.js
+      format.json { head :ok }
     end
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_line_item
-      @line_item = LineItem.find(params[:id])
+      begin
+        @line_item = LineItem.find(params[:id])
+      rescue ActiveRecord::RecordNotFound
+          logger.error "Attempt to access invalid line_item #{params[:id]}"
+          redirect_to store_url, notice: 'Invalid line_item'
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
