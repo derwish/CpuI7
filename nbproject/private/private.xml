@@ -4,17 +4,21 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Sites/cpui7/config/routes.rb</file>
+            <file>file:/C:/Sites/cpui7/app/views/carts/show.html.erb</file>
+            <file>file:/C:/Sites/cpui7/log/development.log</file>
+            <file>file:/C:/Sites/cpui7/app/models/line_item.rb</file>
+            <file>file:/C:/Sites/cpui7/app/models/product.rb</file>
+            <file>file:/C:/Sites/cpui7/test/controllers/products_controller_test.rb</file>
+            <file>file:/C:/Sites/cpui7/app/views/store/index.html.erb</file>
+            <file>file:/C:/Sites/cpui7/app/models/cart.rb</file>
+            <file>file:/C:/Sites/cpui7/db/migrate/20150623203320_combine_items_in_cart.rb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/products_controller.rb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/store_controller.rb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/application_controller.rb</file>
-            <file>file:/C:/Sites/cpui7/app/views/carts/show.html.erb</file>
-            <file>file:/C:/Sites/cpui7/app/models/line_item.rb</file>
-            <file>file:/C:/Sites/cpui7/app/models/product.rb</file>
             <file>file:/C:/Sites/cpui7/app/views/layouts/application.html.erb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/line_items_controller.rb</file>
             <file>file:/C:/Sites/cpui7/test/controllers/line_items_controller_test.rb</file>
-            <file>file:/C:/Sites/cpui7/test/controllers/products_controller_test.rb</file>
-            <file>file:/C:/Sites/cpui7/app/views/store/index.html.erb</file>
+            <file>file:/C:/Sites/cpui7/app/controllers/carts_controller.rb</file>
         </group>
     </open-files>
 </project-private>
