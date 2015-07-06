@@ -4,20 +4,28 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Sites/cpui7/config/routes.rb</file>
+            <file>file:/C:/Sites/cpui7/app/views/line_items/create.js.erb</file>
+            <file>file:/C:/Sites/cpui7/app/views/line_items/_line_item.html.erb</file>
             <file>file:/C:/Sites/cpui7/app/views/carts/show.html.erb</file>
-            <file>file:/C:/Sites/cpui7/log/development.log</file>
+            <file>file:/C:/Sites/cpui7/test/models/product_test.rb</file>
             <file>file:/C:/Sites/cpui7/app/models/line_item.rb</file>
             <file>file:/C:/Sites/cpui7/app/models/product.rb</file>
-            <file>file:/C:/Sites/cpui7/test/controllers/products_controller_test.rb</file>
+            <file>file:/C:/Sites/cpui7/app/assets/stylesheets/application.css.scss</file>
             <file>file:/C:/Sites/cpui7/app/views/store/index.html.erb</file>
             <file>file:/C:/Sites/cpui7/app/models/cart.rb</file>
-            <file>file:/C:/Sites/cpui7/db/migrate/20150623203320_combine_items_in_cart.rb</file>
+            <file>file:/C:/Sites/cpui7/app/assets/javascripts/application.js</file>
             <file>file:/C:/Sites/cpui7/app/controllers/products_controller.rb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/store_controller.rb</file>
+            <file>file:/C:/Sites/cpui7/app/assets/stylesheets/carts.css.scss</file>
+            <file>file:/C:/Sites/cpui7/test/models/line_item_test.rb</file>
+            <file>file:/C:/Sites/cpui7/test/models/cart_test.rb</file>
+            <file>file:/C:/Sites/cpui7/app/views/carts/_cart.html.erb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/application_controller.rb</file>
-            <file>file:/C:/Sites/cpui7/app/views/layouts/application.html.erb</file>
             <file>file:/C:/Sites/cpui7/app/controllers/line_items_controller.rb</file>
             <file>file:/C:/Sites/cpui7/test/controllers/line_items_controller_test.rb</file>
+            <file>file:/C:/Sites/cpui7/app/views/layouts/application.html.erb</file>
+            <file>file:/C:/Sites/cpui7/app/helpers/application_helper.rb</file>
+            <file>file:/C:/Sites/cpui7/Gemfile</file>
             <file>file:/C:/Sites/cpui7/app/controllers/carts_controller.rb</file>
         </group>
     </open-files>

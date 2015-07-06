@@ -14,7 +14,6 @@
  *= require_tree .
  */
 
-/* START_HIGHLIGHT */
 #banner {
   background: #dffff0;/*light marine*/
   padding: 0px;
@@ -51,20 +50,37 @@
     padding: 1em 0.1em;
     width: 19.8em;
     background: #dffff0;/*light marine*/
+    
+    form, div {
+      display: inline;
+    }
+    
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+      color: #013c68;/*dark blue*/
+      table {
+        border-top: 1px dotted #013c68;/*dark blue*/
+        border-bottom: 1px dotted #013c68;/*dark blue*/
+        margin-bottom: 10px;
+      }
+    }
 	
     ul {
       padding: 1em 1em;
       width: 17.8em;
       height: 50em;
-      background: #dffff0;/*dark blue*/
+      background: #dffff0;/*light marine*/
       li {
         list-style: none;
         a {
-          color: #013c68;/*light marine*/
+          color: #013c68;/*dark blue*/
           font-size: small;
         }
       }
     }
   }
 }
-/* END_HIGHLIGHT */
