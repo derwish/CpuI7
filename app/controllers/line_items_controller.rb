@@ -1,5 +1,6 @@
 class LineItemsController < ApplicationController
-  before_action :set_line_item, only: [:show, :edit, :update, :destroy]
+  before_action :set_line_item, 
+    only: [:show, :edit, :update, :destroy, :change_quantity ]
 
   # GET /line_items
   # GET /line_items.json
@@ -58,14 +59,37 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1
   # DELETE /line_items/1.json
   def destroy
-    @pr_title = @line_item.product ? @line_item.product.title : "NO NAME"
-
     @line_item.destroy
 
     respond_to do |format|
       format.html { redirect_to store_path }
-      format.js
+      format.js { @cart = current_cart }
       format.json { head :ok }
+    end
+  end
+
+  # POST /line_items/change_quantity/(:mod)
+  def change_quantity
+    @cart = current_cart
+
+    case params[:mod]
+    when '+1'
+      @line_item.quantity += 1
+    when '-1'
+      @line_item.quantity -= 1
+    else
+      logger.error "Invalid change_quantity mod param #{params[:mod]}"
+    end
+    
+    respond_to do |format|
+      if @line_item.save
+        format.html { redirect_to store_path, notice: "Line item changed quantity. #{params[:mod]}" }
+        format.js { @current_item = @line_item }
+        format.json { head :ok }
+      else
+        format.html { redirect_to store_path, notice: "Line item failed to change quantity. #{params[:mod]}" }
+        format.json { render json: @line_item.errors, status: :unprocessable_entity }
+      end
     end
   end
 

@@ -60,6 +60,7 @@ class CartsController < ApplicationController
     
     respond_to do |format|
       format.html { redirect_to store_url }
+      format.js { @cart = current_cart }
       format.json { head :no_content }
     end
   end

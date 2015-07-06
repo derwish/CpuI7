@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :line_items
 
+  resources :orders
+
+  resources :line_items
   resources :carts
 
   get 'store/index'
@@ -8,6 +10,8 @@ Rails.application.routes.draw do
   resources :products
 
   root 'store#index' , as: 'store'
+
+  post 'line_items/change_quantity/:mod' => 'line_items#change_quantity', as: :change_quantity
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

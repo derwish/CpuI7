@@ -3,8 +3,16 @@
 <% else %>
 <tr>
 <% end %>
+    
+  <% if line_item.quantity == 1 %>
+    <td><%= button_to 'x', line_item, method: :delete, remote: true %></td>
+  <% else %>
+    <td><%= button_to '-', change_quantity_url(mod: '-1', id: line_item), remote: true %></td>
+  <% end %>
+  
   <td><%= line_item.quantity %>&times;</td>
+  <td><%= button_to '+', change_quantity_url(mod: '+1', id: line_item), remote: true %></td>
   <td><%= line_item.product.title %></td>
   <td class='item_price'><%= number_to_currency(line_item.total_price) %></td>
-  <td><%= button_to 'x', line_item, method: :delete%></td>
+  <td><%= button_to 'x', line_item, method: :delete, remote: true%></td>
 </tr>

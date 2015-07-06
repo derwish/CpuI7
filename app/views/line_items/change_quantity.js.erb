@@ -1,8 +1,4 @@
-$("#notice").hide();
-if ($('#cart tr').length == 2) { $('#cart').show('fade', 1000); }
-
 $('#cart').html("<%=j render @cart %>");
 
 $('#current_item').css({'background-color':'#FFFF99'}).
 animate({'background-color':'#dffff0'}, 1000);
-
