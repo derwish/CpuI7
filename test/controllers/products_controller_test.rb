@@ -2,11 +2,11 @@ require 'test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:i7_2820)
+    @product = products(:i7_2820_2)
     @update = {
       title:       'fake_i7_2820',
-      description: products(:i7_2820).description,
-      image_url:   products(:i7_2820).image_url,
+      description: @product.description,
+      image_url:   @product.image_url,
       price:       199.00
     }
   end

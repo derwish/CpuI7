@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  product_id: 1
+  product: i7_2820
   cart_id: 1
   price: 0.01
+  order: ab_order
 
 two:
-  product_id: 1
-  cart_id: 1
+  product: i7_2820
+  cart_id: 2
   price: 0.01
+  order: ob_order

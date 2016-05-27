@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: 
-  phone: 
-  email: 
-  address: 
-  pay_type: MyString
+ab_order:
+  name: Oleksandr Boiko 
+  phone: +380955318290
+  email: oleksandr.boiko.ua@gmail.com
+  address: 58 Lomonosova str, 161 app
+  pay_type: Check
 
-two:
-  name: 
-  phone: 
-  email: 
-  address: 
-  pay_type: MyString
+ob_order:
+  name: Olga Boiko 
+  phone: +380509837690
+  email: bondarenko_ch@yahoo.com
+  address: 58 Lomonosova str, 161 app
+  pay_type: Check
