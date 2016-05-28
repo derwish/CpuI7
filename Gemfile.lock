@@ -56,6 +56,7 @@ GEM
     mime-types-data (3.2016.0521)
     minitest (5.9.0)
     multi_json (1.12.1)
+    pg (0.18.4)
     pg (0.18.4-x86-mingw32)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -101,6 +102,7 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -118,4 +120,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.12.4
+   1.12.5

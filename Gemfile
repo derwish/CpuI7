@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 # Use postgres db
 gem 'pg'
-# Added unimportant change to commit in develop branch
+# Added unimportant change to commit in develop and master branch
 gem 'sass', '3.4.22'
 
 # Use SCSS for stylesheets
