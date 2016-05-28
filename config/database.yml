@@ -3,7 +3,7 @@ development:
   database: store_dev
   pool: 5
   timeout: 5000
-  username: postgres
+  username: cpui7
   password: 1qa2ws3ed
 
 test:
@@ -11,7 +11,7 @@ test:
   database: store_test
   pool: 5
   timeout: 5000
-  username: postgres
+  username: cpui7
   password: 1qa2ws3ed
 
 production:
@@ -19,7 +19,7 @@ production:
   database: store_production
   pool: 5
   timeout: 5000
-  username: postgres
+  username: cpui7
   password: 1qa2ws3ed
 
 # Santy that comment is for sqlite3 db original config 
