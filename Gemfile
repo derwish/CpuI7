@@ -7,6 +7,7 @@ gem 'rails', '4.1.8'
 gem 'pg'
 # Added unimportant change to commit in develop and master branch
 gem 'sass', '3.4.22'
+gem 'rails_12factor'
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

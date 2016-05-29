@@ -1,0 +1,423 @@
+sudo su -
+sudo yum install -y git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
+cd
+pwd
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+exec $SHELL
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
+exec $SHELL
+hostnamectl
+lsb_release -b
+lsb_release -d
+rbenv install -v 2.2.4
+cd
+ls -alf
+echo $path
+echo $Path
+echo $PATH
+rbenv -v
+cd
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo $PATH
+sudo echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo $PATH
+gedit /home/centos/.bash_profile 
+cd
+rbenv -version
+eval --help
+eval -h
+eval \?
+gedit /home/centos/.bash_profile
+cd $HOME/.rbenv/bin
+ls -alf
+rbenv init
+exec $SHELL
+rbenv init
+cd
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+exec $SHELL
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
+exec $SHELL
+.rbenv
+rbenv
+cd .rbenv/
+ls - alf
+ls -alf
+cd
+rm -rf .rbenv/
+ls
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+cd
+gedit /home/centos/.bash_profile
+gedit /home/centos/.bash_profile
+gedit /home/centos/.bash_profile
+exec $SHELL
+rbenv
+gedit /home/centos/.bashrc
+echo $PATH
+exec $SHELL
+export PATH="$HOME/.rbenv/bin:$PATH"
+exec $SHELL
+echo $PATH
+source ~/.bash_profile
+echo $PATH
+gedit /home/centos/.bash_profile
+rbenv
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+source ~/.bash_profile
+rbenv install -v 2.2.4
+ruby -v
+ruby -v
+echo "gem: --no-document" > ~/.gemrc
+gem install bundler
+rbenv global 2.2.1
+rbenv global 2.2.4
+ruby -v
+gem install bundler
+gem install rails -v 4.2.0
+rbenv rehash
+rails -v
+sudo yum -y install epel-release
+sudo yum install nodejs
+git --version
+git config --global user.name "Oleksandr Boiko"
+git config --global user.email "oleksandr.boiko.ua@gmail.com"
+git config --list
+git clone https://github.com/derwish/CpuI7.git ~/git/cpui7
+ls
+cd git
+cd cpui7/
+ls -alf
+git add .
+gedit Gemfile
+git pull
+git add .
+git branch -a
+git checkout -b develop
+git checkout master
+ls -alf
+gedit Gemfile
+git checkout master 
+gedit Gemfile
+git checkout develop 
+git add.
+git add .
+git commit -m "Added unimportant change for develop branch" -a
+git branch
+git checkout master 
+ls
+git ls
+git touch empty_file
+touch empty_file
+git checkout develop 
+git add empty_file
+git commit -m "added empty_file for develop br."
+git checkout master 
+ls
+gedit Gemfile
+git checkout develop 
+gedit Gemfile
+git checkout master 
+git merge develop --no-ff
+vi Gemfile
+git push origin master
+git push origin master
+git checkout develop 
+push origin develop
+git push origin develop
+git --list
+git branch
+bundle update
+gem install
+gem install pg
+sudo yum install postgresql-server postgresql-contrib postgresql-devel
+sudo postgresql-setup initdb
+sudo vi /var/lib/pgsql/data/pg_hba.conf
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+sudo su - postgres
+vi config/database.yml 
+gem install pg
+bundle update
+rake db:create
+vi config/database.yml 
+sudo su - postgres
+sudo vi /var/lib/pgsql/data/pg_hba.conf
+rake db:create
+    sudo systemctl start postgresql
+    sudo systemctl enable postgresql 
+rake db:create
+rake db
+centos -v
+version
+ver
+vi /var/log/Xorg.0.log
+sudo /etc/init.d/gdm restart
+cd /etc/init.d/
+ls
+ls -alf
+cd
+rake db
+rake db:create
+ls
+cd git/
+ls
+cd cpui7/
+rake db:create
+rake db
+rails s
+rails s -h
+ping i.ua
+yum install xorg-x11-drv-intel
+sudo yum install xorg-x11-drv-intel
+sudo yum install xorg
+echo $PATH
+yum groupinstall "X Window System"
+sudo yum groupinstall "X Window System"
+startx
+sudo yum grouplist
+sudo yum grouplist |more
+sudo systemctl start graphical.target
+sudo yum update
+package-cleanup --cleandupes
+sudo package-cleanup --cleandupes
+sudo package-cleanup --cleandupes | more
+sudo package-cleanup --cleandupes --skip-broken | more
+sudo yum update
+sudo package-cleanup --cleandupes --skip-broken
+sudo package-cleanup --cleandupes --skip-broken | more
+sudo systemctl start graphical.target
+sudo yum-complete-transaction
+sudo yum update
+sudo yum update | more
+sudo yum uninstall avahi
+sudo yum update avahi
+package-cleanup -h
+package-cleanup -h | more
+sudo package-cleanup --cleandupes --noscripts
+sudo yum update avahi
+sudo yum --exclude=avahi* update
+sudo yum --exclude=avahi* update  | more
+sudo yum remove LibX11
+sudo yum remove libX11
+sudo yum --exclude=avahi* update  | more
+sudo yum remove libxcb.x86_64 
+sudo yum groupremove "Gnome Desktop"
+sudo yum update
+sudo yum --exclude=avahi* update  | more
+sudo yum remove libX11
+sudo yum remove libxcb.x86_64 
+sudo yum remove libxcb.x86_64 | more
+sudo yum --exclude=avahi* update  | more
+apt-get install x-window-system
+rbenv
+apt-get -h
+sudo yum grouplist | grep -iE 'gnome|windows'
+sudo yum groupinstall "GNOME Desktop"
+sudo yum groupinstall "Graphical Administration Tools"
+startx
+yum update
+sudo yum update
+sudo yum update >> upd.log
+yum-complete-transaction
+sudo yum-complete-transaction
+sudo yum-complete-transaction --cleanup-only
+yum update
+
+sudo yum grouplist
+sudo yum grouplist | more
+sudo yum-complete-transaction
+sudo yum groupinstall "GNOME Desktop"
+startx
+yum update
+sudo yum update
+sudo yum update -h
+sudo yum update -h | more
+sudo yum update --skip-broken
+sudo yum update
+package-cleanup --cleandupes --skip-broken
+package-cleanup --cleandupes
+sudo yum install package cleanup
+sudo yum u
+sudo yum update | mor
+
+sudo yum-complete-transaction
+sudo yum update --skip-broken
+sudo yum update --skip-broken | more
+shutdown -r now
+sudo shutdown -r now
+rpm -q centos-release
+sudo yum update
+sudo yum update > output.txt
+vi output.txt 
+sudo yum update avahi.x86_64
+sudo yum update avahi.x86_64 | more
+sudo yum update avahi.libs | more
+sudo yum update avahi
+vi output.txt 
+sudo yum update libxcb
+sudo yum update libX11
+sudo yum remove libxcb
+sudo yum grooupinstall "GNOME Desktop"
+sudo yum groupinstall "GNOME Desktop"
+sudo yum-complete-transaction
+sudo yum update libX11
+vi output.txt 
+sudo yum install check.x86_64
+sudo yum update > output.txt
+vi output.txt 
+sudo yum install librsvg2.x86_64
+sudo yum update > output.txt
+sudo yum remove avahi-0.6.31-15.el7_2.1.x86_64
+sudo yum remove "avahi-0.6.31-15.el7_2.1.x86_64"
+sudo yum remove avahi-libs
+sudo yum update > output.txt
+sudo yum remove avahi-0.6.31-15.el7_2.1.x86_64
+sudo yum remove avahi-0.6.31-13.el7
+sudo yum install avahi
+sudo yum update > output.txt
+sudo yum remove libxcb-1.9-5.el7.x86_64
+sudo yum update
+sudo yum groupinstall "GNOME Desktop"
+sudo shudown -r now
+sudo shutdown -r now
+cd
+ls
+cd git
+cd cpui7/
+rake db
+rails s
+rake db:migrate
+rails s
+rake db:create:all
+rake db:seed
+rails s
+git add .
+sudo yum install git
+git --version
+git config --global user.name "Oleksandr Boiko"
+git config --global user.email "Oleksandr Boiko"
+git config --global user.email "oleksandr.boiko.ua@gmail.com"
+git config --list
+git add .
+git remote -v
+vi Gemfile
+git add .
+git branch -a
+git checkout -b master
+git checkout master
+git checkout develop
+git commit -m "made cpui7 work on Centos dev. br." 
+git checkout master
+git merge develop --no-ff
+git add .
+git checkout develop
+git logg
+git log
+git checkout master
+git add .
+git list
+git -h
+git checkout master
+git che
+git push origin develop
+git checkout master
+git push origin master
+rails s
+cd
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+sudo wget -qO- https://toolbelt.heroku.com/install.sh | sh
+vi ~/.bash_profile
+source ~/.bash_profile
+heroku create
+heroku apps --all
+heroku apps:delete limitless-mountain-89551
+cd
+ls
+cd git/
+ls
+cd cpui7/
+heroku create
+git push heroku master
+heroku open
+git push heroku develop
+git push heroku master
+heroku open
+git checkout develop 
+rails s
+rake db:seed
+rails s
+git checkout master
+rake db:create
+rake db:seed
+git checkout master
+git push heroku master
+rails s
+heroku open
+bundle update
+vi Gemfile.lock 
+heroku logs --tail
+heroku logs |more
+heroku logs
+pwd
+cp Gemfile.lock /home/centos/git/Gl.bak
+rm Gemfile.lock
+ls
+ls -alf
+mc
+bundle update
+diff Gemfile.lock ../Gl.bak 
+git checkout master 
+git add .
+git commit -m "updated linux Gemfile.lock" -a
+git push origin master
+rails s
+rake db:create
+rake db:seed
+rails s
+git push heroku master
+gem install bundler
+git push heroku master
+git add .
+git commit -m "updated linux Gemfile.lock" -a
+git push heroku master
+heroku open
+heroku logs
+abrt-cli list --since 1464475456
+heroku logs
+heroku login
+heroku open
+heroku apps
+heroku open still-sierra-47314
+heroku still-sierra-47314 open
+git push heroku master
+cd git/cpui7/
+heroku open
+vi Gemfile
+bundle update
+heroku run rake db:migrate
+heroku open
+heroku run rake db:seed
+bundle update
+heroku run bundle update
+bundle install
+heroku restart
+heroku open
+heroku bundle install
+heroku run bundle install
+heroku run gem install bundler
+heroku run bundle update
+bundle install
+heroku run bundle update
+heroku run bundle -v
+sudo shutdown -r now
+cd git/cpui7/
