@@ -421,3 +421,98 @@ heroku run bundle update
 heroku run bundle -v
 sudo shutdown -r now
 cd git/cpui7/
+cd 
+cd git/cpui7/
+heroku open
+vi Gemfile
+git add .
+bundle update
+git add .
+git commit -m "added static assets"
+git push origin master 
+git push heroku master 
+heroku labs:enable user-env-compile
+heroku labs:enable user-env-compile -a still-sierra-47314
+ls
+ls -alf
+cd config/
+ls -alf
+cd environments/
+ls -alf
+bundle exec rake assets:precompile
+git add .
+vi Gemfile
+
+cd ../..
+vi Gemfile
+git commit -m "removed static assets + added precompiled assets"
+git commit -m "removed static assets + added precompiled assets" -a
+git push origin master 
+git add .
+git commit -m "removed static assets + added precompiled assets" -a
+git push origin master 
+bundle update
+bundle clean
+git push heroku master 
+bundle install
+heroku run bundle install
+git push heroku master 
+rails s
+vi Gemfile
+bundle update
+vi ruby_useful_cl
+ls -alf
+ls -Alf
+ls -aLf
+ls
+ls -a
+ls -l
+cd /home/centos/
+ls -l
+ls -ql
+ls -al
+cp /home/centos/.bash_history git/cpui7/terminal_history.txt
+cd git/cpui7/
+git add .
+git commit -m "added terminal history" -a
+git push origin master 
+git push heroku master 
+heroku open
+vi AN
+chmod +x
+chmod +x AN
+cp AN /usr/bin/
+sudo cp AN /usr/bin/
+AN
+ls -l
+vi STH
+STH
+ls -l
+chnod +x STH 
+chmod +x STH 
+sudo cp STH /usr/bin/ 
+STH
+cp /home/centos/.bash_history git/cpui7/terminal_history.txt
+cp /home/centos/.bash_history /home/centos/git/cpui7/terminal_history.txt
+vi  /home/centos/git/cpui7/terminal_history.txt
+exit
+shutdown -r now
+STH
+sudo /usr/bin/
+sudo vi /usr/bin/STH 
+STH
+sudo vi /usr/bin/STH 
+cd
+cd git/
+cd cpui7/
+ls -l
+rm STH 
+rm AN
+rm STH 
+ls -l
+AN
+vi terminal_history.txt 
+sudo vi /usr/bin/STH 
+sudo vim /usr/bin/STH 
+STH
+vi terminal_history.txt 

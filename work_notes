@@ -1,0 +1,26 @@
+STH - save terminal history
+AN - add notes
+
+
+
+
+//--------------------------------------------------
+
+I will be creating new commands and name them in CAPS letters
+
+
+//--------------------------------------------------
+
+How to create your own command in linux
+1. Create file 
+    - the name of the file will be your command later
+2. add terminal commands inside the created file you want to be executed
+    $vi file_name
+3. make your file executable 
+    $chmod +x yourScript
+4. copy your script in the path, /usr/bin
+    $cp yourscript /usr/bin/
+
+
+//---------------------------------------------------
+
