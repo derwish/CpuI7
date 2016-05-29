@@ -1,0 +1,224 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will
+ * include all the files listed below.
+ * 
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets,
+ * vendor/assets/stylesheets, or vendor/assets/stylesheets of plugins, if any,
+ * can be referenced here using a relative path.
+ * 
+ * You're free to add application-wide styles to this file and they'll appear
+ * at the top of the compiled file, but it's generally better to create a new
+ * file per style scope.
+ * 
+
+
+ */
+#banner {
+  background: #dffff0;
+  /*light marine*/
+  padding: 0px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #013c68;
+  /*dark blue*/
+  text-align: center; }
+  #banner img {
+    float: left; }
+
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif; }
+
+#columns {
+  background: #dffff0;
+  /*light marine*/ }
+  #columns #main {
+    margin-left: 21em;
+    padding: 1em;
+    background: #dffff0;
+    /*light marine*/ }
+  #columns #side {
+    float: left;
+    padding: 1em 0.1em;
+    width: 19.8em;
+    background: #dffff0;
+    /*light marine*/ }
+    #columns #side form, #columns #side div {
+      display: inline; }
+    #columns #side input {
+      font-size: small; }
+    #columns #side #cart {
+      font-size: smaller;
+      color: #013c68;
+      /*dark blue*/ }
+      #columns #side #cart table {
+        border-top: 1px dotted #013c68;
+        /*dark blue*/
+        border-bottom: 1px dotted #013c68;
+        /*dark blue*/
+        margin-bottom: 10px; }
+    #columns #side ul {
+      padding: 1em 1em;
+      width: 17.8em;
+      height: 50em;
+      background: #dffff0;
+      /*light marine*/ }
+      #columns #side ul li {
+        list-style: none; }
+        #columns #side ul li a {
+          color: #013c68;
+          /*dark blue*/
+          font-size: small; }
+
+.cpui7_form fieldset {
+  background: #efe; }
+  .cpui7_form fieldset legend {
+    color: #dfd;
+    background: #141;
+    font-family: sans-serif;
+    padding: 0.2em 1em; }
+.cpui7_form form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block; }
+.cpui7_form form select, .cpui7_form form textarea, .cpui7_form form input {
+  margin-left: 0.5em; }
+.cpui7_form form .submit {
+  margin-left: 4em; }
+.cpui7_form form br {
+  display: none; }
+.carts .item_price, .carts .total_line, .carts .total_cell, #side #cart .item_price, #side #cart .total_line, #side #cart .total_cell {
+  font-weight: bold; }
+.carts .total_line, .carts .checkout, #side #cart .total_line, #side #cart .checkout {
+  text-align: right; }
+.carts .total_cell, #side #cart .total_cell {
+  border-top: 1px solid #013c68; }
+/* START_HIGHLIGHT */
+.products table {
+  border-collapse: collapse; }
+.products table tr td {
+  padding: 5px;
+  vertical-align: top; }
+.products .list_image {
+  width: 60px;
+  height: 70px; }
+.products .list_description {
+  width: 60%; }
+  .products .list_description dl {
+    margin: 0; }
+  .products .list_description dt {
+    color: #244;
+    font-weight: bold;
+    font-size: larger; }
+  .products .list_description dd {
+    margin: 0; }
+.products .list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em; }
+.products .list_line_even {
+  background: #e0f8f8; }
+.products .list_line_odd {
+  background: #f8b0f8; }
+
+/* END_HIGHLIGHT */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000; }
+  a:visited {
+    color: #666; }
+  a:hover {
+    color: #fff;
+    background-color: #000; }
+
+div.field, div.actions {
+  margin-bottom: 10px; }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  #error_explanation ul li {
+    font-size: 12px;
+    list-style: square; }
+/* START_HIGHLIGHT */
+.store {
+  /* An entry in the store catalog */ }
+  .store h1 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font: 150% sans-serif;
+    color: #226;
+    border-bottom: 3px dotted #77d; }
+  .store .entry {
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 1px dotted #77d;
+    min-height: 100px; }
+    .store .entry img {
+      width: 80px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      position: absolute; }
+    .store .entry h3 {
+      font-size: 120%;
+      font-family: sans-serif;
+      margin-left: 100px;
+      margin-top: 0;
+      margin-bottom: 2px;
+      color: #227; }
+    .store .entry p, .store .entry div.price_line {
+      margin-left: 100px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em; }
+      .store .entry p form, .store .entry p div, .store .entry div.price_line form, .store .entry div.price_line div {
+        display: inline; }
+    .store .entry .price {
+      color: #44a;
+      font-weight: bold;
+      margin-right: 3em; }
+
+/* END_HIGHLIGHT */
