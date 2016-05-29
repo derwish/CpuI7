@@ -1,6 +1,6 @@
 STH - save terminal history
 AN - add notes
-
+commit ["commit message"] git commit all changed files + push master + push heroku
 
 
 

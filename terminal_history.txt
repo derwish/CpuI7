@@ -516,3 +516,40 @@ sudo vi /usr/bin/STH
 sudo vim /usr/bin/STH 
 STH
 vi terminal_history.txt 
+shutdown -r now
+STH
+sudo vi /usr/bin/STH 
+STH 
+sudo vi /
+STH 
+cd
+cd git/cpui7/
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+set clipboard=unnamedplus
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+ls -s
+ls -l
+vi -v
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+set clipboard=unnamedplus
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+vi terminal_history.txt 
+sudo vi /usr/bin/commit
+sudo chmod +x /usr/bin/commit 
+commit "test automated commit"
+AN 
+STH 
